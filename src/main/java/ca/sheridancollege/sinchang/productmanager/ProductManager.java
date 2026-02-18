@@ -14,6 +14,8 @@ public class ProductManager {
         System.out.println("Product Manager Application Started");
     }
     
+    
+    // This method calculates the discounted price based on original price and discount percentage
     public double calculateDiscount(double price, double percentage) {
         return price - (price * percentage / 100);
     }
